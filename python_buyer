@@ -5,5 +5,5 @@ RUN mkdir /buyer
 
 ADD test.sh /buyer/test.sh
 
-ENTRYPOINT sh test.sh
+ENTRYPOINT sh /buyer/test.sh
 
