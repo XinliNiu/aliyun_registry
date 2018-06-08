@@ -1,1 +1,9 @@
-python_buyer
+FROM python:latest
+MAINTAINER nxl
+
+RUN mkdir /buyer
+
+ADD buyer.py /buyer/buyer.py
+
+ENTRYPOINT python buyer.py
+
