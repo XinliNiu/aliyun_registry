@@ -3,7 +3,7 @@ MAINTAINER nxl
 
 RUN mkdir /buyer
 
-ADD buyer.py /buyer/buyer.py
+ADD test.sh /buyer/test.sh
 
-ENTRYPOINT python buyer.py
+ENTRYPOINT sh test.sh
 
